@@ -15,7 +15,7 @@ plt.vlines(datetime.date(2016, 4, 20), 0, 270, linestyles='--', colors='gray', l
 plt.xlabel('Date')
 plt.ylabel('USD')
 plt.title('Figure 2: Goldman Sachs stock price')
-plt.savefig('assests/nyse_gs.png')
+plt.savefig('assets/nyse_gs.png')
 plt.legend()
 plt.show()
 
