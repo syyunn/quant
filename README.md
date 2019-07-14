@@ -18,4 +18,4 @@ This repository provides the data he has used by getting access to the yahoo fin
 
 - `data/plot_nyse_gs.py` is the code to reproduce the following plot that __[boris](https://github.com/borisbanushev/stockpredictionai)__ has introduced in his repo with the data stored in `nyse_gs.pkl`.
 
-![png](assets/output_21_0.png)
+![png](assets/nyse_gs.png)
