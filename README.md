@@ -11,5 +11,5 @@ This repo currently relies on `yfinance` which is the most recent active fin dat
 
 ### Goldman Sachs NYSE
 
-The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses the `NYSE:GS` data. Please refer to `plots/Goldman_Sachs_stock_price.py` to reroduce the following result
+The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses the `NYSE:GS` data. Please refer to `plots/Goldman_Sachs_stock_price.py` to reroduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_21_0.png)__
 ![png](assets/Goldman_Sachs_stock_price.png)
