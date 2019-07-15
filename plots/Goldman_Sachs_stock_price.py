@@ -3,11 +3,12 @@ import matplotlib.pyplot as plt
 
 from Data import Data
 
-data = Data('GS')
+ticker = 'GS'
+data = Data(ticker)
 df = data.get_close_data()
 
 plt.figure(figsize=(14, 5), dpi=100)
-plt.plot(df['Date'], df['GS'], label='Goldman Sachs stock')
+plt.plot(df['Date'], df['price'], label='Goldman Sachs stock')
 
 plt.vlines(datetime.date(2016, 4, 20),
            0,

@@ -1,7 +1,7 @@
 # Yahoo
 
 ## About
-This repo aims to reproduce the __[Repo](https://github.com/borisbanushev/stockpredictionai)__ authored by __[Boris Banushev](https://www.linkedin.com/in/borisbanushev/)__ 
+This repo aims to reproduce the __[repo](https://github.com/borisbanushev/stockpredictionai)__ authored by __[Boris Banushev](https://www.linkedin.com/in/borisbanushev/)__ 
 
 ### Dependencies 
 
@@ -13,3 +13,7 @@ This repo currently relies on `yfinance` which is the most recent active fin dat
 
 The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses the `NYSE:GS` data. Please refer to `plots/Goldman_Sachs_stock_price.py` to reroduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_21_0.png)__
 ![png](assets/Goldman_Sachs_stock_price.png)
+
+### Techinical Indicator 
+Please refer to `plots/Techinical_indicators_for_Goldman_Sachs_last_400_days` to reproduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_32_0.png)__
+![png](assets/Techinical_indicators_for_Goldman_Sachs_last_400_days.png)
