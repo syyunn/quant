@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 
-from utils import parser, pickle_object
+from utils import parser
 
 from Constants import sg_start  # Boris has used data from 2009-12-31
 
