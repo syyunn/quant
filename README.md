@@ -17,3 +17,10 @@ The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses the `NYS
 ### Techinical Indicator 
 Please refer to `plots/Techinical_indicators_for_Goldman_Sachs_last_400_days` to reproduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_32_0.png)__
 ![png](assets/Techinical_indicators_for_Goldman_Sachs_last_400_days.png)
+
+### Simple Import of __[BERT](https://github.com/google-research/bert)__
+
+The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses `MXNet/Gluon API` which is available after installation using following command 
+
+    pip install --upgrade mxnet>=1.4.1
+    pip install gluonnlp
