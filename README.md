@@ -5,9 +5,13 @@ This repo aims to reproduce the __[repo](https://github.com/borisbanushev/stockp
 
 ### Dependencies 
 
+#### yfinance
 This repo currently relies on `yfinance` which is the most recent active fin data retrieving API.
 
     pip install yfinance --upgrade --no-cache-dir
+
+#### git-lfs 
+This repo also relies on git-lfs tracking to track `*.png` file extensions. It's not mandatory for you to install/use `git-lfs` but it's recommended.
 
 ### Goldman Sachs NYSE
 
