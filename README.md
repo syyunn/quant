@@ -10,13 +10,10 @@ This repo currently relies on `yfinance` which is the most recent active fin dat
 
     pip install yfinance --upgrade --no-cache-dir
 
-#### statsmodel
-    conda install statsmodel
-
 #### git-lfs 
 This repo also relies on git-lfs tracking to track `*.png` file extensions. It's not mandatory for you to install/use `git-lfs` but it's recommended.
 
-#### simply reproduce the conda env for this repo w/ following cmd
+#### simple reproduce
     conda env create -f env.yml
 
     
