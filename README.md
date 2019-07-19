@@ -10,17 +10,21 @@ This repo currently relies on `yfinance` which is the most recent active fin dat
 
     pip install yfinance --upgrade --no-cache-dir
 
+
 #### git-lfs 
 This repo also relies on git-lfs tracking to track `*.png` file extensions. It's not mandatory for you to install/use `git-lfs` but it's recommended.
+
 
 ### Goldman Sachs NYSE
 
 The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses the `NYSE:GS` data. Please refer to `plots/Goldman_Sachs_stock_price.py` to reroduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_21_0.png)__
 ![png](assets/Goldman_Sachs_stock_price.png)
 
+
 ### Techinical Indicator 
 Please refer to `plots/Techinical_indicators_for_Goldman_Sachs_last_400_days.py` to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_32_0.png)__
 ![png](assets/Techinical_indicators_for_Goldman_Sachs_last_400_days.png)
+
 
 ### Simple Import of __[BERT](https://github.com/google-research/bert)__
 
@@ -29,6 +33,12 @@ The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses `MXNet/G
     pip install --upgrade mxnet>=1.4.1
     pip install gluonnlp
 
+
 ### Fourier Transforms
 Please refer to `plots/Goldman_Sachs_(close)_stock_prices_&_Fourier_Transforms.py` to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_45_0.png)__ 
 ![png](assets/Goldman_Sachs_(close)_stock_prices_&_Fourier_Transforms.png)
+
+
+### Components of Fourier Transforms
+Please refer to `plots/Components_of_Fourier_transforms.py` to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_47_0.png)__ 
+![png](assets/Components_of_Fourier_transforms.png)
