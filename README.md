@@ -19,7 +19,7 @@ The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses the `NYS
 ![png](assets/Goldman_Sachs_stock_price.png)
 
 ### Techinical Indicator 
-Please refer to `plots/Techinical_indicators_for_Goldman_Sachs_last_400_days` to reproduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_32_0.png)__
+Please refer to `plots/Techinical_indicators_for_Goldman_Sachs_last_400_days.py` to reproduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_32_0.png)__
 ![png](assets/Techinical_indicators_for_Goldman_Sachs_last_400_days.png)
 
 ### Simple Import of __[BERT](https://github.com/google-research/bert)__
@@ -28,3 +28,7 @@ The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses `MXNet/G
 
     pip install --upgrade mxnet>=1.4.1
     pip install gluonnlp
+
+### Fourier Transforms
+Please refer to `plots/Goldman_Sachs_(close)_stock_prices_&_Fourier_Transforms.py` to reproduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_32_0.png)__
+![png](assets/Goldman_Sachs_(close)_stock_prices_&_Fourier_Transforms.png)
