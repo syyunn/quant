@@ -1,4 +1,6 @@
 # BorisQunat
+![png](assets/teaser.png)
+
 
 ## About
 This repo aims to reproduce the __[repo](https://github.com/borisbanushev/stockpredictionai)__ authored by __[Boris Banushev](https://www.linkedin.com/in/borisbanushev/)__ 
