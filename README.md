@@ -1,5 +1,5 @@
 # BorisQunat
-![png](assets/teaser.png)
+![png](assets/teaser.jpg)
 
 
 ## About
