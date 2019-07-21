@@ -52,7 +52,7 @@ Please run `plots/Components_of_Fourier_transforms.py` to reproduce the __[resul
 ![png](assets/Components_of_Fourier_transforms.png)
 
 
-### ARIMA_as_a_feature
+### ARIMA as a Feature
 Please run `plots/ARIMA_as_a_feature.py`to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_51_0.png)__ 
 ![png](assets/ARIMA_as_a_feature.png)
     
