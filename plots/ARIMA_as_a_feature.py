@@ -6,10 +6,11 @@ import matplotlib.pyplot as plt
 from Data import Data
 
 # Data prep
+ticker = 'GS'
 data = Data('GS')
 data_FT = data.get_close_data()
 
-series = data_FT['price']
+series = data_FT[ticker]
 
 # Check Auto-correlation
 model = ARIMA(series, order=(5, 1, 0))

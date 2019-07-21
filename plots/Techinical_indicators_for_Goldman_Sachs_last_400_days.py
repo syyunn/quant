@@ -4,6 +4,7 @@ from Data import Data, get_technical_indicators
 
 def plot_technical_indicators(dataset,
                               last_days):
+    ticker = dataset.columns.values[1]
     plt.figure(figsize=(16, 10), dpi=100)
     shape_0 = dataset.shape[0]
     xmacd_ = shape_0 - last_days
@@ -15,7 +16,7 @@ def plot_technical_indicators(dataset,
     # Plot first subplot
     plt.subplot(2, 1, 1)
     plt.plot(dataset['ma7'], label='MA 7', color='g', linestyle='--')
-    plt.plot(dataset['price'], label='Closing Price', color='b')
+    plt.plot(dataset[ticker], label='Closing Price', color='b')
     plt.plot(dataset['ma21'], label='MA 21', color='r', linestyle='--')
     plt.plot(dataset['upper_band'], label='Upper Band', color='c')
     plt.plot(dataset['lower_band'], label='Lower Band', color='c')

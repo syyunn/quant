@@ -29,7 +29,7 @@ class Data:
             dates.append(date)
             prices.append(price)
 
-        data_dict = {'Date': dates[sg_start:], 'price': prices[sg_start:]}
+        data_dict = {'Date': dates[sg_start:], self.code: prices[sg_start:]}
 
         df = pd.DataFrame(data_dict)
 
@@ -37,25 +37,27 @@ class Data:
 
 
 def get_technical_indicators(dataset):
+    code = dataset.columns.values[1]
+
     # Create 7 and 21 days Moving Average
-    dataset['ma7'] = dataset['price'].rolling(window=7).mean()
-    dataset['ma21'] = dataset['price'].rolling(window=21).mean()
+    dataset['ma7'] = dataset[code].rolling(window=7).mean()
+    dataset['ma21'] = dataset[code].rolling(window=21).mean()
 
     # Create MACD
-    dataset['26ema'] = dataset['price'].ewm(span=26).mean()
-    dataset['12ema'] = dataset['price'].ewm(span=12).mean()
+    dataset['26ema'] = dataset[code].ewm(span=26).mean()
+    dataset['12ema'] = dataset[code].ewm(span=12).mean()
     dataset['MACD'] = (dataset['12ema'] - dataset['26ema'])
 
     # Create Bollinger Bands
-    dataset['20sd'] = dataset['price'].rolling(20).std()
+    dataset['20sd'] = dataset[code].rolling(20).std()
     dataset['upper_band'] = dataset['ma21'] + (dataset['20sd'] * 2)
     dataset['lower_band'] = dataset['ma21'] - (dataset['20sd'] * 2)
 
     # Create Exponential moving average
-    dataset['ema'] = dataset['price'].ewm(com=0.5).mean()
+    dataset['ema'] = dataset[code].ewm(com=0.5).mean()
 
     # Create Momentum
-    dataset['momentum'] = dataset['price'] - 1
+    dataset['momentum'] = dataset[code] - 1
 
     # Create Log Momentum
     dataset['log_momentum'] = np.log(dataset['momentum'])
@@ -67,7 +69,7 @@ if __name__ == "__main__":
     # Chapter 3.0
     data = Data('GS')
     df = data.get_close_data()
-    # print(df.head(3))
+    print(df.head(3))
 
     # Chapter 3.2
     dataset_ti_df = get_technical_indicators(df)

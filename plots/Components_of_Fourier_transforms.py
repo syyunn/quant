@@ -7,11 +7,12 @@ import matplotlib.pyplot as plt
 from Data import Data
 
 # Data preparation
+ticker = 'GS'
 data = Data('GS')
 data_FT = data.get_close_data()
 
 
-close_fft = np.fft.fft(np.asarray(data_FT['price'].tolist()))
+close_fft = np.fft.fft(np.asarray(data_FT[ticker].tolist()))
 fft_df = pd.DataFrame({'fft': close_fft})
 
 # # These are not used in plotting
