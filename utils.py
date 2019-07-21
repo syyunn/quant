@@ -30,8 +30,11 @@ def merge_n_dfs(list_of_dfs, common_col):
     merged = merge_two_dfs([df1, df2],
                            common_col=common_col)
 
-    for df in list_of_dfs[2:]:
-        merged = merge_two_dfs([merged, df],
-                               common_col=common_col)
+    if len(list_of_dfs) > 2:
+        for df in list_of_dfs[2:]:
+            merged = merge_two_dfs([merged, df],
+                                   common_col=common_col)
+    else:
+        pass
 
     return merged

@@ -1,5 +1,6 @@
 from Data import Data
 from utils import merge_n_dfs
+from interest_rate.LIBOR import get_libor
 
 # # Other companies
 
@@ -17,7 +18,11 @@ data_MS = data_MS.get_close_data()
 
 # Merge n different assests
 dfs = [data_GS, data_JPM, data_MS]
-data = merge_n_dfs(dfs, common_col="Date")
+merge = merge_n_dfs(dfs, common_col="Date")
+
+# Merge LIBOR to Stock data
+libor = get_libor()
+merge = merge_n_dfs([merge, libor], common_col="Date")
 
 if __name__ == "__main__":
     pass
