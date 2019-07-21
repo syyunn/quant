@@ -83,3 +83,4 @@ Please run `plots/ARIMA_as_a_feature.py`to reproduce the __[result](https://gith
     AR.3           -0.6016           +1.7650j            1.8647            0.3023
     AR.4            1.5123           -1.0819j            1.8594           -0.0988
     AR.5            1.5123           +1.0819j            1.8594            0.0988
+![png](assets/ARIMA_model_on_GS_stock.png)
