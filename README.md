@@ -25,12 +25,12 @@ This repo also relies on git-lfs tracking to track `*.png` file extensions. It's
 
 ### Goldman Sachs NYSE
 
-The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses the `NYSE:GS` data. Please refer to `plots/Goldman_Sachs_stock_price.py` to reroduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_21_0.png)__
+The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses the `NYSE:GS` data. Please run `plots/Goldman_Sachs_stock_price.py` to reroduce the following __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_21_0.png)__
 ![png](assets/Goldman_Sachs_stock_price.png)
 
 
 ### Techinical Indicator 
-Please refer to `plots/Techinical_indicators_for_Goldman_Sachs_last_400_days.py` to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_32_0.png)__
+Please run `plots/Techinical_indicators_for_Goldman_Sachs_last_400_days.py` to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_32_0.png)__
 ![png](assets/Techinical_indicators_for_Goldman_Sachs_last_400_days.png)
 
 
@@ -43,17 +43,17 @@ The __[repo](https://github.com/borisbanushev/stockpredictionai)__ uses `MXNet/G
 
 
 ### Fourier Transforms
-Please refer to `plots/Goldman_Sachs_(close)_stock_prices_&_Fourier_Transforms.py` to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_45_0.png)__ 
+Please run `plots/Goldman_Sachs_(close)_stock_prices_&_Fourier_Transforms.py` to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_45_0.png)__ 
 ![png](assets/Goldman_Sachs_(close)_stock_prices_&_Fourier_Transforms.png)
 
 
 ### Components of Fourier Transforms
-Please refer to `plots/Components_of_Fourier_transforms.py` to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_47_0.png)__ 
+Please run `plots/Components_of_Fourier_transforms.py` to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_47_0.png)__ 
 ![png](assets/Components_of_Fourier_transforms.png)
 
 
 ### ARIMA_as_a_feature
-Please refer to `plots/ARIMA_as_a_feature`to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_51_0.png)__ 
+Please run `plots/ARIMA_as_a_feature.py`to reproduce the __[result](https://github.com/borisbanushev/stockpredictionai/blob/master/output_51_0.png)__ 
 ![png](assets/ARIMA_as_a_feature.png)
     
                                  ARIMA Model Results                              
